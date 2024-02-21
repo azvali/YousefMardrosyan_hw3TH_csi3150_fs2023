@@ -246,8 +246,114 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     background-image: url(../assets/img/p5.jpg);
     background-size: cover;
+    flex-direction: column;
+    
+}
+
+.p6 .person{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url(../assets/img/p6_person.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.p6 p{
+    width: 600px;
+    height: auto;
+    font-size: 23px;
+    color: white;
+
+}
+
+.p6 h3{
+    margin-top: 15px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.p6 span{
+    font-size: 50px;
+    color: rgb(189, 189, 39);
+
+}
+
+
+
+
+.p7{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pic1{
+    background-image: url(../assets/img/pic1.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100%;
+}
+
+.pic2{
+    background-image: url(../assets/img/pic2.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100%;
+}
+
+.pic3{
+    background-image: url(../assets/img/pic4.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100%;
+}
+
+.pic4{
+    background-image: url(../assets/img/pic3.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column 2;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/img/footer.jpg);
+    background-size: cover;
+}
+
+.contact_us_container{
+    width: 50vw;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+
+.contact_us_container h1{
+    font-size: 60px;
+    color: rgb(189, 189, 39);
+    margin-top: 205px;
+    margin-bottom: 85px;
+}
+
+.contact_us_container h3{
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: white;
 }
